@@ -1,0 +1,60 @@
+.formControl {
+    width: 100%;
+    display: flex;
+    border: 1px solid #707070;
+    border-right: 2px solid #707070;
+    padding: 4px;
+    margin: 8px 0;
+    transition: 300ms;
+}
+
+.formControlRow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #707070;
+    border-right: 2px solid #707070;
+    position: relative;
+    padding: 4px;
+    margin: 8px 0;
+    transition: 300ms;
+}
+
+.formControlRow:hover, .formControl:hover {
+    outline: none;
+    box-shadow: 1px 2px rgba(95, 95, 95, 0.3);
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+
+.passwordField {
+    border: none;
+    width: 100%;
+    padding: 5px;
+    transition: 200ms;
+}
+
+.passwordIcon {
+    font-size: 18px;
+    position: absolute;
+    right: 1%;
+    top: 20%;
+    cursor: pointer;
+}
+
+.inputField {
+    border: none;
+    width: 100%;
+    padding: 5px;
+    transition: 200ms;
+}
+
+.passwordField:focus, .inputField:focus {
+    border: none;
+    outline-style: inset;
+    outline-width: 2px;
+    outline-color: lightblue;
+    background-color: aliceblue;
+}
+

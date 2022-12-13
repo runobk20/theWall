@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+button {
+    margin-top: 1rem;
+    padding: .725rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
